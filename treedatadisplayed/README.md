@@ -3,9 +3,12 @@
 
 This is an exercise that displays a data type like a Tree on the screen.
 As you can see there are 2 type of boxes a white and a black.
-The black one represents a folder with children, the white one a single file or a folder with out a children.
+The black one represents a folder with children, the white one a single file or a folder with out  children.
 To expand the children of a folder just click on the item.
 White boxes ain't clickable because the don't have children.
+To display the children I am doing a recursion on the component that holds the name and children propperties (children property is optional).
+
+You can do this task with any type of data structure.
 
 
 
