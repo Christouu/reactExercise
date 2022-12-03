@@ -1,0 +1,31 @@
+.App {
+  text-align: start;
+  background-color: gray;
+  height: 100vh;
+}
+
+.files {
+  height: 100%;
+  display: flex;
+  margin-left: 800px;
+  flex-direction: column;
+  justify-content: center;  
+  gap: 10px;
+  
+}
+
+.entry {
+  height: 40px;
+  width: max-content;
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.singleFile {
+  background-color: white;
+  border-radius: 10px;
+  width: max-content;
+  padding: 5px 10px;
+}
